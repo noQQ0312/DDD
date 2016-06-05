@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+    edt_custom.cpp \
+    wnd_main.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    edt_custom.h \
+    wnd_main.h
 
-FORMS    += mainwindow.ui
+FORMS    += \
+    wnd_main.ui
